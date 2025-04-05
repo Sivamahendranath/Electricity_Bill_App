@@ -70,7 +70,7 @@ Demo_link: [https://www.linkedin.com/posts/sivamahendranath-ragimanu-68a94823b_e
 ### 🔧 Setup
 ```bash
 # 📥 Clone repository
-git clone https://github.com/username/electricity-bill-calculator.git
+git clone https://github.com/Sivamahendranath/Electricity_Bill_App.git
 
 # 📁 Navigate to project directory
 cd electricity-bill-calculator
