@@ -1,0 +1,34 @@
+⚙️ Technical Requirements
+✅ Software Requirements
+Python Version: Python 3.6 or higher
+(Recommended: Python 3.x)
+
+IDE/Editor: Any of the following:
+
+Visual Studio Code
+
+PyCharm
+
+Jupyter Notebook
+
+IDLE (default Python editor)
+
+Command Line / Terminal
+
+✅ Libraries and Dependencies
+No external libraries required
+
+Only uses Python's built-in functions:
+
+input(), print(), float(), str()
+
+✅ Hardware Requirements
+A basic computer capable of running Python (Windows, macOS, or Linux)
+
+Minimum:
+
+CPU: 1 GHz
+
+RAM: 512 MB
+
+Storage: ~1 MB (negligible, just for the script file)
