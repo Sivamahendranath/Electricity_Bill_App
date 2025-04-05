@@ -199,17 +199,17 @@ def generate_pdf(data):
     c.drawString(40, height - y_position, f"Total Bill: ₹{data['Total_Bill']}")
     
     # Late payment section
-    y_position += 40
-    c.setFont("Helvetica-Bold", 14)
-    c.drawString(40, height - y_position, "Payment Information")
-    c.setFont("Helvetica", 12)
-    y_position += 20
-    c.drawString(40, height - y_position, f"Payment Due Date: {data['Due_Date']}")
-    y_position += 20
-    c.drawString(40, height - y_position, f"Late Payment Fee (2%): ₹{data['Late_Fee']}")
-    y_position += 20
-    c.setFont("Helvetica-Bold", 12)
-    c.drawString(40, height - y_position, f"Amount After Due Date: ₹{data['Amount_After_Due_Date']}")
+    # y_position += 40
+    # c.setFont("Helvetica-Bold", 14)
+    # c.drawString(40, height - y_position, "Payment Information")
+    # c.setFont("Helvetica", 12)
+    # y_position += 20
+    # c.drawString(40, height - y_position, f"Payment Due Date: {data['Due_Date']}")
+    # y_position += 20
+    # c.drawString(40, height - y_position, f"Late Payment Fee (2%): ₹{data['Late_Fee']}")
+    # y_position += 20
+    # c.setFont("Helvetica-Bold", 12)
+    # c.drawString(40, height - y_position, f"Amount After Due Date: ₹{data['Amount_After_Due_Date']}")
     
     # Payment methods section
     y_position += 40
@@ -252,17 +252,17 @@ def main():
     logo_path = download_and_save_logo()
     
     # Sidebar for navigation and info
-    with st.sidebar:
-        if logo_path and os.path.exists(logo_path):
-            try:
-                st.image(logo_path, width=250)
-            except:
-                st.image("https://api.placeholder.com/400/320", width=250)
-        else:
-            st.image("https://api.placeholder.com/400/320", width=250)
+    # with st.sidebar:
+    #     if logo_path and os.path.exists(logo_path):
+    #         try:
+    #             st.image(logo_path, width=250)
+    #         except:
+    #             st.image("https://api.placeholder.com/400/320", width=250)
+    #     else:
+    #         st.image("https://api.placeholder.com/400/320", width=250)
         
-        st.markdown("<h3>Navigation</h3>", unsafe_allow_html=True)
-        page = st.radio("Navigation", ["Calculate Bill", "Tariff Information", "Bill History", "Help"], label_visibility="collapsed")
+    #     st.markdown("<h3>Navigation</h3>", unsafe_allow_html=True)
+    #     page = st.radio("Navigation", ["Calculate Bill", "Tariff Information", "Bill History", "Help"], label_visibility="collapsed")
         
         st.markdown("---")
         st.markdown("<div class='info-box'>This calculator helps you estimate electricity bills for different customer types based on meter readings.</div>", unsafe_allow_html=True)
