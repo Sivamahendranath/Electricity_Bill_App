@@ -102,4 +102,4 @@ streamlit run app.py
 
 
 ## 📝 License 📝
-© 2025 Electricity Bill Calculator | All Rights Reserved ✨
+© 2025 Electricity Bill Appr | All Rights Reserved ✨ @Sivamahendranath Ragimanu
